@@ -4,6 +4,7 @@
   font-family: var(--secFont);
   display: flex;
 }
+
 .sidebar {
   width: 40%;
   height: 100%;
@@ -15,17 +16,21 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.sidebar > * {
+
+.sidebar>* {
   margin-left: 50px;
   margin-top: 50px;
 }
+
 .domain span {
   color: var(--lightroyalblue);
 }
+
 .intro p {
   font-size: 1.2em;
   color: var(--lightroyalblue);
 }
+
 .intro p img {
   width: 30px;
 }
@@ -37,10 +42,12 @@
   font-weight: 900;
   position: relative;
 }
+
 .intro h5 {
   font-size: 1.2em;
   line-height: 1.8em;
 }
+
 .intro button {
   padding: 25px 50px;
   border: 2px solid #fff;
@@ -50,6 +57,7 @@
   margin-top: 20px;
   cursor: pointer;
 }
+
 /*
   --------------------------------------------------------
   
@@ -60,18 +68,18 @@
   --------------------------------------------------------
   */
 .bg-container {
-  background-image: linear-gradient(
-      rgba(32, 30, 96, 0.8),
-      rgba(32, 30, 96, 0.8)
-    ),
+  background-image: linear-gradient(rgba(255, 136, 0, 0.8),
+      rgba(255, 77, 0, 0.8)),
     url("../public/assets/shattered-island.gif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .icons {
   display: flex;
 }
+
 .banner {
   background-color: var(--background);
   width: 100%;
@@ -80,10 +88,12 @@
   align-items: center;
   justify-content: center;
 }
+
 .banner img {
   width: 50%;
   background-color: var(--background);
 }
+
 .banner p {
   color: #fff;
   margin: 40px 0px;
@@ -91,6 +101,7 @@
   word-spacing: 5px;
   font-size: 1.2em;
 }
+
 .banner button {
   padding: 10px 20px;
   color: #fff;
@@ -101,6 +112,7 @@
   transition: all 0.3s ease;
   margin: 50px 0px;
 }
+
 .banner button:hover {
   color: white;
   box-shadow: 0px 2px 5px #535461;
@@ -111,19 +123,24 @@
     width: 90%;
     margin-left: -20px;
   }
+
   .intro h1 {
     font-size: 3.5em;
   }
+
   .intro button {
     padding: 15px 25px;
   }
+
   .banner {
     height: 115vh;
     width: 90%;
   }
+
   .banner img {
     margin-top: 150px;
   }
+
   .home {
     flex-wrap: wrap;
   }
