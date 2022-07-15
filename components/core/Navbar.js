@@ -31,7 +31,7 @@ export default function Navbar() {
         </li>
       </ul>
       <a
-        href="https://github.com/jayhawk24/jayhawk24.github.io/"
+        href="https://github.com/leslo360"
         className="github-corner"
         aria-label="View source on GitHub"
       >
@@ -45,7 +45,7 @@ export default function Navbar() {
             position: "absolute",
             top: 0,
             border: 0,
-            right: 0
+            right: 0,
           }}
           aria-hidden="true"
         >
