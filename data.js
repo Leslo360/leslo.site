@@ -4,7 +4,7 @@ export const home = {
   subtitle: "A Freelance Full-stack Web Developer from South Africa.",
   email: "leslo912sebusi@gmail.com",
   resumeLink:
-    "https://drive.google.com/file/d/1sqxhKQnX9vD1Q41R1QqjCUadxBZlfTJ-/view?usp=sharing",
+    "https://docs.google.com/document/d/17l0ysOJm7C7qAzKGlrpXPXMB6tLakThE/edit?usp=sharing&ouid=112968071252960491981&rtpof=true&sd=true",
   desc: "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
 };
 

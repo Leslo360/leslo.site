@@ -13,11 +13,11 @@ function MyApp({ Component, pageProps, router }) {
       initial="hidden"
       animate="enter"
       exit="exit"
-      transition={{ type: "spring" }}
+      transition={{ type: "linear" }}
       variants={{
-        hidden: { x: 0, y: -300 },
-        enter: { x: 0, y: 0 },
-        exit: { x: 0, y: 0 },
+        hidden: { opacity: 0, x: -300, y: -100 },
+        enter: { opacity: 1, x: 0, y: 0 },
+        exit: { opacity: 1, x: 0, y: 0 },
       }}
     >
       <Component {...pageProps} />
