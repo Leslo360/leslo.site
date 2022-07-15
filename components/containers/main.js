@@ -55,7 +55,7 @@ export default function Main() {
       <div className="banner">
         {/* <img src="assets/undraw_coding_6mjf.svg" alt="illustration" />
          */}
-        <Lottie options={defaultOptions} height={700} width={700} />
+        <Lottie options={defaultOptions} height="60vh" width="30vw" />
         <p>
           {home.desc}
           <br />

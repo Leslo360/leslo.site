@@ -1,5 +1,5 @@
 export const home = {
-  domain: "jayhawk.github.io",
+  domain: "leslo360.vervel.app",
   name: "Lesego",
   subtitle: "A Freelance Full-stack Web Developer from South Africa.",
   email: "leslo912sebusi@gmail.com",

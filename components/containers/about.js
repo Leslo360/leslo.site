@@ -35,7 +35,7 @@ export default function About() {
             <span className="quote">"{about.quote}"</span>
           </div>
 
-          <Lottie options={defaultOptions} height={700} width={700} />
+          <Lottie options={defaultOptions} height="50vh" width="30vw" />
         </section>
       </div>
       <section className="skillset">
